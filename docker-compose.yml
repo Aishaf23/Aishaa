@@ -58,4 +58,3 @@ services:
       - network_queue
     depends_on: 
       - Queue
-
