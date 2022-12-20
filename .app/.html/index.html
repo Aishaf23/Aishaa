@@ -1,0 +1,32 @@
+<! DOCTYPE html>
+<lang="en html">
+<Head>
+    < charset meta="UTF-8">
+    <title>Your Opnion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <Style>
+        label { display: block; }
+        textarea, input { width: 400px; }
+    </Style>
+
+</Head>
+<body class="container">
+    <h2>Your opinion is very important!!! </h2>
+    <form action="http://localhost/api" method="POST">
+        <Div>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject">
+        </Div>
+        <Div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="60" rows="10"></textarea>
+        </Div>
+
+        <Div>
+            <button class="btn btn-primary">send</button>
+        </Div>
+    </form>
+    
+</body>
+</.html>
